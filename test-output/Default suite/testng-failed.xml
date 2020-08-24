@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Utility.SetProperties"/>
+      <class name="Utility.Log"/>
+      <class name="PageObjects.CommonMethodsFunctions"/>
+      <class name="Driver.BaseTest"/>
+      <class name="Utility.ReadProperties"/>
+      <class name="ObjectRepository.Amazon_LoginPage_OR"/>
+      <class name="ObjectRepository.Amazon_CartPage_OR"/>
+      <class name="ObjectRepository.Amazon_ProductPage_OR"/>
+      <class name="Driver.Runner"/>
+      <class name="ObjectRepository.Amazon_SearchResultPage_OR"/>
+      <class name="Driver.stepDefs.AmazonStepDefinitions"/>
+      <class name="Driver.PropertyData"/>
+      <class name="ObjectRepository.Amazon_HamburgerMenu_OR"/>
+      <class name="Driver.desiredCapabilities"/>
+      <class name="ObjectRepository.Amazon_HomePage_OR"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
